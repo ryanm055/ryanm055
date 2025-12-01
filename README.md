@@ -39,7 +39,7 @@ class SoftwareDeveloper:
         ]
 
     def technicalSkills(self):
-        softwareDevelopmentAndOtherStuff = {
+        SoftwareAndHardwareDevelopment = {
             'Languages' : [ 'HTML5/CSS', 'Javascript/Typescript', 'SQL', 'GraphQL (soon)', 'Bash', 'Lua', 'Python', 'Java/Kotlin', 'C', 'C++ (soon)', 'Rust (soon)', 'Zig (soon)'],
             'Frontend Libraries / Frameworks': ['TailwindCSS', 'HTMX (soon)', 'React (soon)'],
             'Backend Libraries / Frameworks': ['Flask', 'Django'],
@@ -49,7 +49,7 @@ class SoftwareDeveloper:
             'Tools': ['Git', 'Github', 'Azure (soon)', 'Docker', 'Kubernetes', 'Tauri', 'Figma', 'VSCode', 'KiCad'],
             'Methodologies': ['Agile, SOLID', 'GRASP', 'Gang of Four Design Patterns'],
         }
-        print(softwareDevelopmentAndOtherStuff)
+        print(SoftwareAndHardwareDevelopment)
 
     def contact_me(self):
         print("Contact me through linkedin or email for any inquiries!")
